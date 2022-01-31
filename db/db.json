@@ -1,0 +1,186 @@
+{
+  "categories": [
+    { "id": 1, "name": "Woman's Product" },
+    { "id": 2, "name": "Men's Product" },
+    { "id": 3, "name": "Make-up" },
+    { "id": 4, "name": "Gifts" }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Cleansing Milk & Toning Lotion",
+      "price": 34.99,
+      "description": "Everything for a beautiful skin in one kit. A cosmetic setClarins Cleansing Milk & Toning Lotion will be a great treat for yourself or as a gift for your loved ones.",
+      "categoryId": 1,
+      "image": "https://cdn.notinoimg.com/detail_thumb/clarins/3380810223866_01-ox/clarins-cleansing-milk-toning-lotion-cosmetic-set-ii-for-women_.jpg"
+    },
+    {
+      "id": 2,
+      "title": "CLARINS EYE CARE CLEANSER 4.0 OZ",
+      "price": 22.99,
+      "description": "Clarins Gentle Eye Make-Up Remover (for Sensitive Eyes) is a fresh, soothing lotion that gently and thoroughly removes all regular eye makeup. Clarins Gentle Eye Make-Up Remover good for light, everyday eye make-up. This refreshing floral-based lotion soothes and softens, thoroughly eliminates eye make-up.Clarins Gentle Eye Make-Up Remover revitalises and refreshes, helps prevent moisture-loss and strengthens eyelashes. Gentle Eye Make-Up Remover was formulated to be as gentle as eyedrops. Suitable for those with sensitive eyes or contact lenses.",
+      "categoryId": 1,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41+Lwuxy5rL._AC_UL600_SR600,600_.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Clarins-Blue Orchid Treatment Oil",
+      "price": 43.99,
+      "description": "Buy Online Clarins Huile SANTAL Face Treatment Oil dry or extra dry skin 40 ml. This product is 100% original with EAN code.",
+      "categoryId": 1,
+      "image": "https://www.clarinsusa.com/dw/image/v2/AAFS_PRD/on/demandware.static/-/Sites-clarins-master-products/default/dw51419ad5/original/80054593_original_original_1.jpg?sw=365&sh=365"
+    },
+    {
+      "id": 4,
+      "title": "Clarins Lotus Face Treatment Oil",
+      "price": 39.99,
+      "description": "Lotus face treatment oil was launched by the design house of Clarins. Hydrating treatment restores vitality and radiance to dehydrated skin. It extracts tone and revitalize to moisture-depleted skin.",
+      "categoryId": 1,
+      "image": "https://www.heinemann-shop.com/medias/1399779-527Wx527H?context=bWFzdGVyfGltYWdlc3w0ODM0NXxpbWFnZS9qcGVnfGg5YS9oZTkvOTYxMzg1MjcwNDc5OC8xMzk5Nzc5XzUyN1d4NTI3SHw4MDI3ZmIzYTMzNjVmNjA1ZTcwMGY3Y2ZlZTI0YTg4MjI3MTU4ZDEyOTAwZTEzZmMzNWJiM2U3MTFmNDYwMGM4&v=1629813990992."
+    },
+    {
+      "id": 5,
+      "title": "CLARINS Men Shampoo & Shower",
+      "price": 30.50,
+      "description": "1-An all-over shampoo for men, 2-Provides dual-purpose cleanser for hair & body, 3-Leaves skin & hair feeling soft & refined, 4-Perfect for everyday use, 5-Highly recommended for all skin types",
+      "categoryId": 2,
+      "image": "https://a.cdnsbn.com/images/products/23287480321.jpg"
+    },
+    {
+      "id": 6,
+      "title": "CLARINS Men Super Moisture Balm (New Packaging)",
+      "price": 35.00,
+      "description": "An anti-pollution firming moisture balm. Continuously offers optimal hydration to your skin. Helps soothe razor burn & discomfort. Effectively softens whiskers to facilitate shaving. Suitable for all skin types.",
+      "categoryId": 2,
+      "image": "https://a.cdnsbn.com/images/products/23695480321.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Clarins Clarins men Enegizing Eye Gel 15 ml",
+      "price": 34.99,
+      "description": "It’s the perfect skincare treatment for men who lead fast-paced lives. A true shot of energy, vitality and hydration for their overworked skin. The powerful action of organic red ginseng extract will help boost the skin’s energy production: to energize it, stimulate it, and help it fight off all kinds of aggressors (extreme temperatures, overwork, stress). For a smooth and energized eye area and bright, rested eyes.",
+      "categoryId": 2,
+      "image": "https://www.heinemann-shop.com/medias/1470659-527Wx527H?context=bWFzdGVyfGltYWdlc3w0MTkzNHxpbWFnZS9qcGVnfGgzMS9oZjgvOTU5NTE4ODgwNTY2Mi8xNDcwNjU5XzUyN1d4NTI3SHw4ZjgxOWEwNTgyZWZhYzI3ZGVmNjBmNzM4ZTc0Nzc0OTY1ZDJjZmM0MWFjODNmMzgxYzliZTVjODIwNDI0MWM4&v=1620919245265"
+    },
+    {
+      "id": 8,
+      "title": "Clarins Men Antiperspirant Deo Roll-On",
+      "price": 24.00,
+      "description": "Antiperspirant Deo Roll-On formed by 50 ml. Continuously controls perspiration respecting its natural process; offre un’efficacia deodorante a lunga durata. It is alcohol-free and non-sticky.",
+      "categoryId": 2,
+      "image": "https://www.profumomaniaforever.com/site/wp-content/uploads/2020/11/yukgv-e1606324723818.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Clarins Men UV Plus SPF 50 UVA/UVB 50ml",
+      "price": 47.00,
+      "description": "Protection from both the sun and pollution in a multi-tasking facial treatment specifically for men. Perfect for the city and outdoor sports, this portable product protects from UV damage and the stresses of urban living. Doesn’t leave any white streaks on the skin. Can be applied after your day skincare.",
+      "categoryId": 2,
+      "image": "http://cdn.shopify.com/s/files/1/0035/4523/5569/products/Clarins_Men_UV_Plus_SPF50.jpg?v=1570170202"
+    },
+    {
+      "id": 10,
+      "title": "Clarins Men Exfoliating Cleanser 2in1 Deep Cleansing 125 ml./ 4.4 oz.",
+      "price": 19.99,
+      "description": "ClarinsMen Exfoliating Cleanser 2in1 Deep-Cleansing 125 ml./ 4.4 oz. Brand new, never used. Comes in retail box and the tube is factory sealed. ",
+      "categoryId": 2,
+      "image": "https://www.kroger.com/product/images/large/front/0069791275090"
+    },
+    {
+      "id": 11,
+      "title": "Everlasting Youth Fluid",
+      "price": 49.00,
+      "description": "An anti-aging foundation that illuminates and visibly firms with 5+ plant extracts known for their skincare benefits to help reveal your skin's natural radiance! This long-wearing, medium to full coverage formula delivers a glowy, satin finish for up to 10 hours and provides up to 24 hours* of hydration. Transfer-proof and breathable, this foundation maintains a just-applied look for hours.",
+      "categoryId": 3,
+      "image": "https://www.clarinsusa.com/on/demandware.static/-/Sites-clarins-master-products/default/dw111d7f3b/original/80073597_original_original_1.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Lip Twist Duo Water Tint & Balm",
+      "price": 24.99,
+      "description": "2-in-1 make-up product for lips that can provide two different look styles. At one end is a felt tip that gives the lips an intense almost tattooed color that is kiss-proof. At the other end is a top coat balm in a harmonious shimmering shade. Simple, fast and accurate application in a handy format that makes it easy to carry. Available in 3 shades.",
+      "categoryId": 3,
+      "image": "https://www.chicmoey.com/wp-content/uploads/2020/03/CLARINS-MAKEUP-COLLECTION-FOR-SUMMER-2020-2.png"
+    },
+    {
+      "id": 13,
+      "title": "CLARINS SKIN ILLUSION FOUNDATION: THE SWATCHES",
+      "price": 44.99,
+      "description": "For those new to Skin Illusion, this cult-favourite Clarins foundation is famed for its natural, dewy finish and its ability to create the ‘illusion’ of perfect skin; but for those that are looking to discover if the new version lives up to the standard of the old formula. Here, I talk you through the finish, the shade range and explain why you won’t be disappointed with its new and improved formulation…",
+      "categoryId": 3,
+      "image": "https://assets.escentual.com/blog/2018/08/Blog-Clarins-Skin-Illusion-Foundation-Swatches-Review.png"
+    },
+    {
+      "id": 14,
+      "title": "https://www.clarinsusa.com/on/demandware.static/-/Sites-clarins-master-products/default/dw6351c491/original/80038815_original_original_1.jpg",
+      "price": 30.00,
+      "description": "Flat foundation brush quickly blends cream and liquid formulas with smooth, even, streak-free results. Designed with ultra-soft synthetic fibers and tapered edges to deliver even, natural-looking coverage. Perfect for distributing and blending all liquid and cream foundations, concealers, and primers.",
+      "categoryId": 3,
+      "image": "https://www.clarinsusa.com/on/demandware.static/-/Sites-clarins-master-products/default/dw6351c491/original/80038815_original_original_1.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Clarins All in One Make Up Palette",
+      "price": 39.99,
+      "description": "You don't need to take your bathroom with you when travelling - this make-up palette contains all the essentials you'll need for skin, lips and eyes.",
+      "categoryId": 3,
+      "image": "https://www.heinemann-shop.com/medias/1370225-527Wx527H?context=bWFzdGVyfGltYWdlc3wzNDkyOHxpbWFnZS9qcGVnfGg0MS9oMDMvOTYxMzc0OTU4MzkwMi8xMzcwMjI1XzUyN1d4NTI3SHwwZWZiMmRjYmM4ZWRlZDRmMmJjMTllMTNmOTI4NWRlMzY0NTU5MTc1ZmQ2ZTA0ZDU0MzMyNWY2YjNiNDI1ZmFj&v=1629796849937"
+    },
+    {
+      "id": 16,
+      "title": "Everlasting Compact Foundation",
+      "price": 44.95,
+      "description": "A 15-hour*, matte finish your skin will feel good about. This long-wearing, non-transfer compact foundation minimizes the look of imperfections and uneven skin tone. Resists heat, humidity and perspiration for 15 hour wear* that lasts throughout the day. Help protect your skin’s beauty every day with an ultra-fine texture that features Clarins' Anti-pollution complex",
+      "categoryId": 3,
+      "image": "https://www.clarinsusa.com/on/demandware.static/-/Sites-clarins-master-products/default/dwd2026ccd/original/80027406_original_original_1.jpg"
+    },
+    {
+      "id": 17,
+      "title": "GIFT SET: Clarins Eau Dynamisante 100ml",
+      "price": 72.99,
+      "description": "Clarins Eau Dynamisante Treatment Fragrance is the first fragrance and body treatment from Clarins. With an invigorating, spa-fresh fragrance derived from essential oils, this iconic product blends both aromatherapy and plant therapy in a single iconic bottle. Combining notes of citrus fruit, patchouli, bitter orange, rosemary, and white thyme, this treatment fragrance may be enjoyed by men and women alike. It will not only leave you smelling good, but feeling good. Natural plant extracts of aloe vera and ginseng leave the skin feeling soft, hydrated, and toned, thus creating an overall feeling of vitality and well-being. ",
+      "categoryId": 4,
+      "image": "https://static.beautytocare.com/media/catalog/product/cache/global/image/650x650/85e4522595efc69f496374d01ef2bf13/c/l/clarins-eau-dynamisante-christmas-collection.jpg"
+    },
+    {
+      "id": 18,
+      "title": "GIFT SET: Clarins Perfect Cleansing Kit for Very Dry or Sensitive Skin",
+      "price": 56.85,
+      "description": "Clarins Soothing Toning Lotion is a gentle facial toner that soothes and replenishes dry and sensitive skin with hydration. Clarins Cleansing Micellar Water is a fragrant facial cleanser that removes impurities and makeup from the surface of the skin. Clarins Fresh Scrub Refreshing Cream Scrub is the ideal scrub for both dehydrated and dull skin. ",
+      "categoryId": 4,
+      "image": "https://static.beautytocare.com/media/catalog/product/cache/global/image/650x650/85e4522595efc69f496374d01ef2bf13/c/l/clarins-perfect-cleansing-kit-for-very-dry-or-sensitive-skin.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Clarins Multi-Active Gift Set (Limited Edition)",
+      "price": 48.95,
+      "description": "Clarins Multi-Active Gift Set (Limited Edition) is a luxurious gift box filled with delicious skin care products. In this fine gift box, there is a full-size day cream that visibly reduces the first signs of aging, restores the appearance , moisturizes and maintains a skin that looks younger. In addition, there is a night cream that gives the skin a renewed life and protects the skin, and a micellar water, which removes both dirt and makeup from the skin.",
+      "categoryId": 4,
+      "image": "https://cdn.nicehair.dk/products/93785/clarins-multi-active-gift-set-limited-edition-1636118787.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Beautiful Lips Collection",
+      "price": 15.99,
+      "description": "This handbag-ready collection of miniature lip products will keep your lips moisturised and plump, while adding a touch of colour. This gift is a hand bag must have! something for every occassion. Shiny, matt, lusious or a long lasting effect? All of them are at the ready in their bag.",
+      "categoryId": 4,
+      "image": "https://www.makeupmuddle.com/wp-content/uploads/2020/09/80072416_original_original_1.jpg"
+    },
+    {
+      "id": 21,
+      "title": "Iconic Make-up",
+      "price": 153.99,
+      "description": "The perfect everyday skincare and make-up set. Cleansing Micellar Water for a clean and radiant complexion. Mascara Wonder Perfect 4D enhances the lashes for smouldering eyes. And the Lip Perfector moisturises and adds a subtle colour to the lips for an irresistible smile.",
+      "categoryId": 4,
+      "image": "https://ae.clarins.com/on/demandware.static/-/Sites-clarins-master-products/default/dw5b86f82a/original/80082886_original_original_1.jpg"
+    },
+    {
+      "id": 22,
+      "title": "Clarins Men Hydration Essentials Gift Set With Wash Bag",
+      "price": 52.99,
+      "description": "Exfoliating Cleanser 125ml. Super Moisture Balm 50ml. Shampoo & Shower 30ml. Shave Ease Oil 3ml. Wash Bag",
+      "categoryId": 4,
+      "image": "https://m.media-amazon.com/images/I/51fVSNVeXRL._AC_SX425_.jpg"
+    }
+  ]
+}
