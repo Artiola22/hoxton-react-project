@@ -80,9 +80,9 @@
     },
     {
       "id": 10,
-      "title": "Clarins Men Exfoliating Cleanser 2in1 Deep Cleansing 125 ml./ 4.4 oz.",
+      "title": "Clarins Men Exfoliating Cleanser 2in1 Deep Cleansing 125 ml.",
       "price": 19.99,
-      "description": "ClarinsMen Exfoliating Cleanser 2in1 Deep-Cleansing 125 ml./ 4.4 oz. Brand new, never used. Comes in retail box and the tube is factory sealed. ",
+      "description": "ClarinsMen Exfoliating Cleanser 2in1 Deep-Cleansing 125 ml. Brand new, never used. Comes in retail box and the tube is factory sealed. ",
       "categoryId": 2,
       "image": "https://www.kroger.com/product/images/large/front/0069791275090"
     },
@@ -112,7 +112,7 @@
     },
     {
       "id": 14,
-      "title": "https://www.clarinsusa.com/on/demandware.static/-/Sites-clarins-master-products/default/dw6351c491/original/80038815_original_original_1.jpg",
+      "title": "Flat foundation brush",
       "price": 30.00,
       "description": "Flat foundation brush quickly blends cream and liquid formulas with smooth, even, streak-free results. Designed with ultra-soft synthetic fibers and tapered edges to deliver even, natural-looking coverage. Perfect for distributing and blending all liquid and cream foundations, concealers, and primers.",
       "categoryId": 3,
@@ -181,6 +181,35 @@
       "description": "Exfoliating Cleanser 125ml. Super Moisture Balm 50ml. Shampoo & Shower 30ml. Shave Ease Oil 3ml. Wash Bag",
       "categoryId": 4,
       "image": "https://m.media-amazon.com/images/I/51fVSNVeXRL._AC_SX425_.jpg"
+    }
+  ],
+  "basket": [
+    {
+      "id": 1,
+      "title": "Cleansing Milk & Toning Lotion",
+      "price": 34.99,
+      "description": "Everything for a beautiful skin in one kit. A cosmetic setClarins Cleansing Milk & Toning Lotion will be a great treat for yourself or as a gift for your loved ones.",
+      "categoryId": 1,
+      "image": "https://cdn.notinoimg.com/detail_thumb/clarins/3380810223866_01-ox/clarins-cleansing-milk-toning-lotion-cosmetic-set-ii-for-women_.jpg",
+      "quantity": 1
+    },
+    {
+      "id": 22,
+      "title": "Clarins Men Hydration Essentials Gift Set With Wash Bag",
+      "price": 52.99,
+      "description": "Exfoliating Cleanser 125ml. Super Moisture Balm 50ml. Shampoo & Shower 30ml. Shave Ease Oil 3ml. Wash Bag",
+      "categoryId": 4,
+      "image": "https://m.media-amazon.com/images/I/51fVSNVeXRL._AC_SX425_.jpg",
+      "quantity": 2
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Artiola",
+      "surname" : "Caka",
+      "email" : "artiola@gmail.com",
+      "password": "artiola"
     }
   ]
 }
