@@ -222,17 +222,44 @@
       "categoryId": 4,
       "image": "https://ae.clarins.com/on/demandware.static/-/Sites-clarins-master-products/default/dw5b86f82a/original/80082886_original_original_1.jpg",
       "quantity": 1
+    },
+    {
+      "id": 16,
+      "title": "Everlasting Compact Foundation",
+      "price": 44.95,
+      "description": "A 15-hour*, matte finish your skin will feel good about. This long-wearing, non-transfer compact foundation minimizes the look of imperfections and uneven skin tone. Resists heat, humidity and perspiration for 15 hour wear* that lasts throughout the day. Help protect your skin’s beauty every day with an ultra-fine texture that features Clarins' Anti-pollution complex",
+      "categoryId": 3,
+      "image": "https://www.clarinsusa.com/on/demandware.static/-/Sites-clarins-master-products/default/dwd2026ccd/original/80027406_original_original_1.jpg",
+      "quantity": 1
+    },
+    {
+      "id": 11,
+      "title": "Everlasting Youth Fluid",
+      "price": 49,
+      "description": "An anti-aging foundation that illuminates and visibly firms with 5+ plant extracts known for their skincare benefits to help reveal your skin's natural radiance! This long-wearing, medium to full coverage formula delivers a glowy, satin finish for up to 10 hours and provides up to 24 hours* of hydration. Transfer-proof and breathable, this foundation maintains a just-applied look for hours.",
+      "categoryId": 3,
+      "image": "https://www.clarinsusa.com/on/demandware.static/-/Sites-clarins-master-products/default/dw111d7f3b/original/80073597_original_original_1.jpg",
+      "quantity": 1
     }
   ],
   "users": [
     {
-      "userId": 1,
       "firstName": "Artiola",
       "lastName": "Caka",
       "phoneNumber": 1234123412,
       "email": "artiola@gmail.com",
-      "password": "artiola"
+      "password": "artiola",
+      "password2": "artiola",
+      "id": 1
+    },
+    {
+      "firstName": "ola",
+      "lastName": "domi",
+      "phoneNumber": "2345765322",
+      "email": "Ola",
+      "password": "4Sh5@xxa!GMCr6D",
+      "password2": "4Sh5@xxa!GMCr6D",
+      "id": 2
     }
   ]
-  
 }

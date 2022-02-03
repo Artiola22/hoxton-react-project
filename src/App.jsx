@@ -12,6 +12,7 @@ import CategoryProducts from './Pages/CategoryProducts'
 import PageNotFound from './Pages/PageNotFound'
 import ProductDetails from './Pages/ProductDetails'
 import Products from './Pages/Products'
+import Search from './Pages/Search'
 import SignIn from './Pages/SignIn'
 import SignUp from './Pages/SignUp'
 
@@ -36,6 +37,7 @@ function App() {
         <Route  path="/basket" element={<Basket />}/>
         <Route  path="/signin" element={<SignIn />}/>
         <Route path="/signup" element={<SignUp />}/>
+        <Route  path="/search" element={<Search />}/>
         <Route path="*" element={<PageNotFound />}/>
       </Routes>
     </main>

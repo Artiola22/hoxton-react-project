@@ -19,12 +19,7 @@ function Categories(){
             {categories.map(category => 
                  <CategoryCard key={category.id} category={category} />
              )}
-             <div>
-                 <form action="">
-                     <input type="text"  placeholder="comment
-                     "/>
-                 </form>
-             </div>
+            
 
                
                 

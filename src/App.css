@@ -488,3 +488,22 @@ input[type="submit"]:focus {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   transition: 0.1s ease;
 }
+
+/* Rewiew for the product */
+.single-product{
+  display: grid;
+  
+  gap: 1rem;
+}
+.comment-form{
+  display: grid;
+  border: 1px solid rgb(199, 199, 199);
+  border-radius: 20px;
+  padding-top: 1rem;
+  box-shadow: 3px 2px #d5dfe9;
+  place-items: center;
+  color: #396897;
+}
+.checked {
+  color: orange;
+}
