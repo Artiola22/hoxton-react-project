@@ -1,6 +1,15 @@
-import { Link } from "react-router-dom";
+import { useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 function NavBar() {
+
+  const location = useLocation()
+  console.log(location)
+  useEffect( ()=> {
+   const checkbox =  document.querySelector('#check')
+   // @ts-ignore
+   checkbox.checked = false
+  }, [location.pathname])
   return (
       
     <div className="navbar">

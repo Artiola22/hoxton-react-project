@@ -47,8 +47,18 @@ const [product, setProduct] = useState(null)
            <p> <b>$ {product.price}</b></p>
 
            <button onClick={() => addItemToBasket()}>ADD TO BAG</button>
+
+           
            </div>
+
+           {/* <div>
+                 <form action="">
+                     <input type="text"  placeholder="comment
+                     "/>
+                 </form>
+             </div> */}
        </section>
+       
     )
 }
 export default ProductDetails

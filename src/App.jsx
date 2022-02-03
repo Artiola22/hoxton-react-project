@@ -12,10 +12,12 @@ import CategoryProducts from './Pages/CategoryProducts'
 import PageNotFound from './Pages/PageNotFound'
 import ProductDetails from './Pages/ProductDetails'
 import Products from './Pages/Products'
+import SignIn from './Pages/SignIn'
+import SignUp from './Pages/SignUp'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [users, setUsers] = useState([])
 
   return (
     <div className="App">
@@ -32,6 +34,8 @@ function App() {
         <Route  path="/categories" element={<Categories />}/>
         <Route  path="/categories/:id" element={<CategoryProducts />}/>
         <Route  path="/basket" element={<Basket />}/>
+        <Route  path="/signin" element={<SignIn />}/>
+        <Route path="/signup" element={<SignUp />}/>
         <Route path="*" element={<PageNotFound />}/>
       </Routes>
     </main>

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 function Product({product}){
     return(
-        <li>
+        <li key={product.id}>
           <Link to={`/products/${product.id}`}>
             <article className="product-item">
               <img
@@ -10,7 +10,11 @@ function Product({product}){
                 alt={product.title}
               />
               <h3>{product.title}</h3>
+              
             </article>
+
+            
+            
           </Link>
         </li>
     )

@@ -10,10 +10,10 @@ body{
   grid-template-rows: 200px 1fr 70px ;
   font-family: sans-serif;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
 }
 .App{
-  height: 100vh;
+  min-height: 100vh;
 }
 
 
@@ -97,7 +97,7 @@ li {
   ul{
     position: fixed;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background: #2c3e50;
     top: 80px;
     left: -100%;
@@ -156,7 +156,7 @@ a {
 /* General CSS */
 
 #root {
-  background-color: rgb(243, 239, 239);
+  /* background-color: rgb(243, 239, 239); */
   color: black;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -172,7 +172,7 @@ width: 100%;
 
 .main-wrapper {
   /* max-width: 1300px; */
-  height: 100vh;
+  min-height: 100vh;
 }
 
 /* Header */
@@ -251,6 +251,7 @@ width: 100%;
 
 .product-item h3 {
   font-weight: 400;
+  font-size: 20px;
 }
 
 /* Product Detail */
@@ -259,7 +260,7 @@ width: 100%;
   margin: 0 auto;
   column-gap: 2rem;
   grid-template-columns: 4fr 6fr;
-  padding: rem;
+  padding: 1rem;
   height: 100%;
 }
 
@@ -270,7 +271,7 @@ width: 100%;
 .product-detail__side {
   position: relative;
   display: grid;
-  grid-template-rows: 20% auto;
+  grid-template-rows: auto auto;
   align-content: start;
   padding-left: 1rem;
   border-left: 2px solid;
@@ -334,6 +335,7 @@ width: 100%;
   color: rgb(56, 16, 16);
   font-size: 2.5rem;
 }
+
 .products-container.main-wrapper{
   /* height: 100vh; */
 }
@@ -423,4 +425,66 @@ button{
 button:hover{
   color: rgb(173, 167, 167);
   background-color: rgba(22, 22, 22, 0.493);
+}
+
+/* sign up  */
+#login-box{
+  position: relative;
+  margin: 5% auto;
+  width: 600px;
+  height: 400px;
+  background: #FFF;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+.left{
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+}
+.h1{
+  margin: 0 0 20px o;
+  font-weight:400;
+  color: #0064d3;
+  font-size: 28px;
+
+
+}
+input[type="text"],
+input[type="password"]{
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #AAA;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+input[type="submit"] {
+  margin-top: 28px;
+  width: 120px;
+  height: 32px;
+  background: #33538f;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
 }

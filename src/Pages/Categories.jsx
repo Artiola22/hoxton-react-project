@@ -17,8 +17,14 @@ function Categories(){
         <section className="categories-container main-wrapper">
             <ul className="categories-container__list"> 
             {categories.map(category => 
-                 <CategoryCard category={category} />
+                 <CategoryCard key={category.id} category={category} />
              )}
+             <div>
+                 <form action="">
+                     <input type="text"  placeholder="comment
+                     "/>
+                 </form>
+             </div>
 
                
                 

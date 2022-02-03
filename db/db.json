@@ -1,9 +1,21 @@
 {
   "categories": [
-    { "id": 1, "name": "Woman's Product" },
-    { "id": 2, "name": "Men's Product" },
-    { "id": 3, "name": "Make-up" },
-    { "id": 4, "name": "Gifts" }
+    {
+      "id": 1,
+      "name": "Woman's Product"
+    },
+    {
+      "id": 2,
+      "name": "Men's Product"
+    },
+    {
+      "id": 3,
+      "name": "Make-up"
+    },
+    {
+      "id": 4,
+      "name": "Gifts"
+    }
   ],
   "products": [
     {
@@ -41,7 +53,7 @@
     {
       "id": 5,
       "title": "CLARINS Men Shampoo & Shower",
-      "price": 30.50,
+      "price": 30.5,
       "description": "1-An all-over shampoo for men, 2-Provides dual-purpose cleanser for hair & body, 3-Leaves skin & hair feeling soft & refined, 4-Perfect for everyday use, 5-Highly recommended for all skin types",
       "categoryId": 2,
       "image": "https://a.cdnsbn.com/images/products/23287480321.jpg"
@@ -49,7 +61,7 @@
     {
       "id": 6,
       "title": "CLARINS Men Super Moisture Balm (New Packaging)",
-      "price": 35.00,
+      "price": 35,
       "description": "An anti-pollution firming moisture balm. Continuously offers optimal hydration to your skin. Helps soothe razor burn & discomfort. Effectively softens whiskers to facilitate shaving. Suitable for all skin types.",
       "categoryId": 2,
       "image": "https://a.cdnsbn.com/images/products/23695480321.jpg"
@@ -65,7 +77,7 @@
     {
       "id": 8,
       "title": "Clarins Men Antiperspirant Deo Roll-On",
-      "price": 24.00,
+      "price": 24,
       "description": "Antiperspirant Deo Roll-On formed by 50 ml. Continuously controls perspiration respecting its natural process; offre un’efficacia deodorante a lunga durata. It is alcohol-free and non-sticky.",
       "categoryId": 2,
       "image": "https://www.profumomaniaforever.com/site/wp-content/uploads/2020/11/yukgv-e1606324723818.jpg"
@@ -73,7 +85,7 @@
     {
       "id": 9,
       "title": "Clarins Men UV Plus SPF 50 UVA/UVB 50ml",
-      "price": 47.00,
+      "price": 47,
       "description": "Protection from both the sun and pollution in a multi-tasking facial treatment specifically for men. Perfect for the city and outdoor sports, this portable product protects from UV damage and the stresses of urban living. Doesn’t leave any white streaks on the skin. Can be applied after your day skincare.",
       "categoryId": 2,
       "image": "http://cdn.shopify.com/s/files/1/0035/4523/5569/products/Clarins_Men_UV_Plus_SPF50.jpg?v=1570170202"
@@ -89,7 +101,7 @@
     {
       "id": 11,
       "title": "Everlasting Youth Fluid",
-      "price": 49.00,
+      "price": 49,
       "description": "An anti-aging foundation that illuminates and visibly firms with 5+ plant extracts known for their skincare benefits to help reveal your skin's natural radiance! This long-wearing, medium to full coverage formula delivers a glowy, satin finish for up to 10 hours and provides up to 24 hours* of hydration. Transfer-proof and breathable, this foundation maintains a just-applied look for hours.",
       "categoryId": 3,
       "image": "https://www.clarinsusa.com/on/demandware.static/-/Sites-clarins-master-products/default/dw111d7f3b/original/80073597_original_original_1.jpg"
@@ -113,7 +125,7 @@
     {
       "id": 14,
       "title": "Flat foundation brush",
-      "price": 30.00,
+      "price": 30,
       "description": "Flat foundation brush quickly blends cream and liquid formulas with smooth, even, streak-free results. Designed with ultra-soft synthetic fibers and tapered edges to deliver even, natural-looking coverage. Perfect for distributing and blending all liquid and cream foundations, concealers, and primers.",
       "categoryId": 3,
       "image": "https://www.clarinsusa.com/on/demandware.static/-/Sites-clarins-master-products/default/dw6351c491/original/80038815_original_original_1.jpg"
@@ -201,15 +213,26 @@
       "categoryId": 4,
       "image": "https://m.media-amazon.com/images/I/51fVSNVeXRL._AC_SX425_.jpg",
       "quantity": 2
+    },
+    {
+      "id": 21,
+      "title": "Iconic Make-up",
+      "price": 153.99,
+      "description": "The perfect everyday skincare and make-up set. Cleansing Micellar Water for a clean and radiant complexion. Mascara Wonder Perfect 4D enhances the lashes for smouldering eyes. And the Lip Perfector moisturises and adds a subtle colour to the lips for an irresistible smile.",
+      "categoryId": 4,
+      "image": "https://ae.clarins.com/on/demandware.static/-/Sites-clarins-master-products/default/dw5b86f82a/original/80082886_original_original_1.jpg",
+      "quantity": 1
     }
   ],
   "users": [
     {
-      "id": 1,
-      "name": "Artiola",
-      "surname" : "Caka",
-      "email" : "artiola@gmail.com",
+      "userId": 1,
+      "firstName": "Artiola",
+      "lastName": "Caka",
+      "phoneNumber": 1234123412,
+      "email": "artiola@gmail.com",
       "password": "artiola"
     }
   ]
+  
 }

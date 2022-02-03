@@ -5,6 +5,7 @@ function CategoryCard({ category }) {
     <li>
       <Link to={`/categories/${category.id}`}>{category.name}</Link>
     </li>
+    
   );
 }
 export default CategoryCard;
