@@ -429,6 +429,7 @@ button:hover{
 
 /* sign up  */
 #login-box{
+  
   position: relative;
   margin: 5% auto;
   width: 600px;
@@ -439,6 +440,7 @@ button:hover{
 }
 .left{
   position: absolute;
+  
   top: 0;
   left: 0;
   box-sizing: border-box;
@@ -497,6 +499,7 @@ input[type="submit"]:focus {
 }
 .comment-form{
   display: grid;
+  
   border: 1px solid rgb(199, 199, 199);
   border-radius: 20px;
   padding-top: 1rem;
@@ -506,4 +509,16 @@ input[type="submit"]:focus {
 }
 .checked {
   color: orange;
+}
+#button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.on {
+  color: rgb(251, 255, 0)
+}
+.off {
+  color: #ccc;
 }

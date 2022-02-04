@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
+import StarRating from "../components/StarRating";
 
 function ProductDetails() {
   const [product, setProduct] = useState(null);
@@ -52,8 +53,10 @@ function ProductDetails() {
           <form action="">
             <p>
               <em>Review for the product...</em>
+              <StarRating />
             </p>
-            <span className="star">&#9733;</span>
+            
+            
           </form>
         </div>
       </div>

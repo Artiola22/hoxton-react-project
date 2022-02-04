@@ -204,42 +204,6 @@
       "categoryId": 1,
       "image": "https://cdn.notinoimg.com/detail_thumb/clarins/3380810223866_01-ox/clarins-cleansing-milk-toning-lotion-cosmetic-set-ii-for-women_.jpg",
       "quantity": 1
-    },
-    {
-      "id": 22,
-      "title": "Clarins Men Hydration Essentials Gift Set With Wash Bag",
-      "price": 52.99,
-      "description": "Exfoliating Cleanser 125ml. Super Moisture Balm 50ml. Shampoo & Shower 30ml. Shave Ease Oil 3ml. Wash Bag",
-      "categoryId": 4,
-      "image": "https://m.media-amazon.com/images/I/51fVSNVeXRL._AC_SX425_.jpg",
-      "quantity": 2
-    },
-    {
-      "id": 21,
-      "title": "Iconic Make-up",
-      "price": 153.99,
-      "description": "The perfect everyday skincare and make-up set. Cleansing Micellar Water for a clean and radiant complexion. Mascara Wonder Perfect 4D enhances the lashes for smouldering eyes. And the Lip Perfector moisturises and adds a subtle colour to the lips for an irresistible smile.",
-      "categoryId": 4,
-      "image": "https://ae.clarins.com/on/demandware.static/-/Sites-clarins-master-products/default/dw5b86f82a/original/80082886_original_original_1.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 16,
-      "title": "Everlasting Compact Foundation",
-      "price": 44.95,
-      "description": "A 15-hour*, matte finish your skin will feel good about. This long-wearing, non-transfer compact foundation minimizes the look of imperfections and uneven skin tone. Resists heat, humidity and perspiration for 15 hour wear* that lasts throughout the day. Help protect your skin’s beauty every day with an ultra-fine texture that features Clarins' Anti-pollution complex",
-      "categoryId": 3,
-      "image": "https://www.clarinsusa.com/on/demandware.static/-/Sites-clarins-master-products/default/dwd2026ccd/original/80027406_original_original_1.jpg",
-      "quantity": 1
-    },
-    {
-      "id": 11,
-      "title": "Everlasting Youth Fluid",
-      "price": 49,
-      "description": "An anti-aging foundation that illuminates and visibly firms with 5+ plant extracts known for their skincare benefits to help reveal your skin's natural radiance! This long-wearing, medium to full coverage formula delivers a glowy, satin finish for up to 10 hours and provides up to 24 hours* of hydration. Transfer-proof and breathable, this foundation maintains a just-applied look for hours.",
-      "categoryId": 3,
-      "image": "https://www.clarinsusa.com/on/demandware.static/-/Sites-clarins-master-products/default/dw111d7f3b/original/80073597_original_original_1.jpg",
-      "quantity": 1
     }
   ],
   "users": [
@@ -260,6 +224,24 @@
       "password": "4Sh5@xxa!GMCr6D",
       "password2": "4Sh5@xxa!GMCr6D",
       "id": 2
+    },
+    {
+      "firstName": "Eri",
+      "lastName": "Caka",
+      "phoneNumber": "2345765322",
+      "email": "eri@email.com",
+      "password": "erald",
+      "password2": "erald",
+      "id": 3
+    },
+    {
+      "firstName": "artiola",
+      "lastName": "caka",
+      "phoneNumber": 2345765322,
+      "email": "eri@email.com",
+      "password": "ahahahah",
+      "password2": "ahahahah",
+      "id": 4
     }
   ]
 }

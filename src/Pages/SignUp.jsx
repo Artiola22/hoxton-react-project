@@ -1,10 +1,15 @@
 import { useEffect, useState } from "react"
 
 function SignUp() {
-    
-    
+    // const [user, setUser] = useState([])
+    // function getUserFromServer(){
+    //     return fetch('http://localhost:3000/users')
+    //     .then(resp => resp.json())
+    //     .then(userFromServer => setUser(userFromServer))
+    // }
 
     function addUser (firstName, lastName, phoneNumber, email, password, password2){
+        const [users, setUsers] = useState([])
         return fetch(`http://localhost:3000/users`,{
             method: 'POST',
             headers: {
@@ -13,12 +18,18 @@ function SignUp() {
             body: JSON.stringify({
                 firstName: firstName,
                 lastName: lastName,
-                phoneNumber: phoneNumber,
+                phoneNumber: Number(event.target.phoneNumber.value),
                 email : email,
                 password: password,
                  password2 : password2})
             
         }).then(resp => resp.json())
+        .then(user => {
+            const copy = JSON.parse(JSON.stringify(users))
+            copy.push(user)
+            setUsers(copy)
+            event.target.reset()
+        })
     }
     return(
         <div id="login-box">
@@ -29,6 +40,7 @@ function SignUp() {
                     
                     
                     addUser(event.target.firstname.value, event.target.lastname.value, event.target.phoneNumber.value, event.target.email.value, event.target.password.value, event.target.password2.value)
+                    event.target.reset()
                 } }>
                 <input type="text" name="firstname"  placeholder="First name"/>
                 <input type="text" name="lastname"  placeholder="Last name"/>
