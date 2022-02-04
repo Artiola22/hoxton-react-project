@@ -32,7 +32,7 @@ function NavBar() {
              <li><Link to="signin">Sign In</Link></li>
              <li><Link to="signup">Sign Up</Link></li>
              <li><Link to="search">Search</Link></li>
-             <li><Link to="contactus">Contact Us</Link></li>
+             <li><Link to="contact">Contact Us</Link></li>
              </ul>
          </nav>
          <section></section>

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function Basket() {
+function Basket({user}) {
   const [basket, setBasket] = useState([]);
 
   //Fetch basket
@@ -34,6 +34,7 @@ function Basket() {
   return (
     <section className="basket-container">
       <h2>My Basket</h2>
+      <h3>{user !== '' ? `Hello, ${user.firstName}, this is your basket! ` : ''}</h3>
       {basket.length === 0 ? (
         <p>There is no items in your basket!</p>
       ) : (

@@ -9,6 +9,7 @@ import NavBar from './components/NavBar'
 import Basket from './Pages/Basket'
 import Categories from './Pages/Categories'
 import CategoryProducts from './Pages/CategoryProducts'
+import ContactUs from './Pages/ContactUs'
 import PageNotFound from './Pages/PageNotFound'
 import ProductDetails from './Pages/ProductDetails'
 import Products from './Pages/Products'
@@ -18,7 +19,8 @@ import SignUp from './Pages/SignUp'
 
 
 function App() {
-  const [users, setUsers] = useState([])
+ 
+  const [user, setUser] = useState('');
 
   return (
     <div className="App">
@@ -34,10 +36,11 @@ function App() {
         <Route  path="/products/:id" element={<ProductDetails />}/>
         <Route  path="/categories" element={<Categories />}/>
         <Route  path="/categories/:id" element={<CategoryProducts />}/>
-        <Route  path="/basket" element={<Basket />}/>
-        <Route  path="/signin" element={<SignIn />}/>
-        <Route path="/signup" element={<SignUp />}/>
+        <Route  path="/basket" element={<Basket  user={user}/>}/>
+        <Route  path="/signin" element={<SignIn user={user} setUser={setUser} />}/>
+        <Route path="/signup" element={<SignUp  user={user} setUser={setUser}/>}/>
         <Route  path="/search" element={<Search />}/>
+        <Route path="/contact" element={<ContactUs />}/>
         <Route path="*" element={<PageNotFound />}/>
       </Routes>
     </main>

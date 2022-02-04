@@ -211,37 +211,25 @@
       "firstName": "Artiola",
       "lastName": "Caka",
       "phoneNumber": 1234123412,
-      "email": "artiola@gmail.com",
       "password": "artiola",
       "password2": "artiola",
-      "id": 1
+      "id": "artiola@gmail.com"
     },
     {
-      "firstName": "ola",
-      "lastName": "domi",
-      "phoneNumber": "2345765322",
-      "email": "Ola",
-      "password": "4Sh5@xxa!GMCr6D",
-      "password2": "4Sh5@xxa!GMCr6D",
-      "id": 2
+      "firstName": "Arita",
+      "lastName": "Osmani",
+      "phoneNumber": 123456789,
+      "password": "aritaa",
+      "password2": "aritaa",
+      "id": "arita@email.com"
     },
     {
-      "firstName": "Eri",
-      "lastName": "Caka",
-      "phoneNumber": "2345765322",
-      "email": "eri@email.com",
-      "password": "erald",
-      "password2": "erald",
-      "id": 3
-    },
-    {
-      "firstName": "artiola",
-      "lastName": "caka",
-      "phoneNumber": 2345765322,
-      "email": "eri@email.com",
-      "password": "ahahahah",
-      "password2": "ahahahah",
-      "id": 4
+      "firstName": "Ola",
+      "lastName": "Domi",
+      "phoneNumber": 3333333,
+      "password": "olaola",
+      "password2": "olaola",
+      "id": "ola@domi.com"
     }
   ]
 }
